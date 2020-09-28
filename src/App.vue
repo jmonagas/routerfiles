@@ -1,6 +1,6 @@
 <template>
   <div id="app">
-    <img alt="Logo" src="./assets/logo.png" />
+    <img alt="Logo" src="./assets/Logo.png" />
     <div id="nav">
       | <router-link to="/">Home</router-link> |
       <router-link to="/game">Game</router-link> |
@@ -23,10 +23,10 @@
   font-weight: bolder;
 }
 #nav a.router-link-exact-active {
-  color: #139906;
-  text-decoration: #139906 solid 1px;
+  color: green;
+  text-decoration: green solid 1px;
 }
 img {
-  height: 10vh;
+  height: 25vh;
 }
 </style>
