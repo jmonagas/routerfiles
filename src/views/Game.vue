@@ -1,16 +1,16 @@
 <template>
   <div class="main">
-    <login-page></login-page>
+    <the-game></the-game>
   </div>
 </template>
 
 <script>
-import LoginPage from "@/components/LoginPage.vue";
+import TheGame from "@/components/TheGame.vue";
 
 export default {
-  name: "Home",
+  name: "Game",
   components: {
-    LoginPage
+    TheGame
   }
 };
 </script>
