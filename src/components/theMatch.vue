@@ -1,14 +1,16 @@
 <template>
-  <div class="main">
+  <div id="mainpics">
     <h3>Enjoy the Game</h3>
-    <div class="options">
+    <div id="thebtns">
       <button @click="select(0)">Rock</button>
       <button @click="select(1)">Paper</button>
       <button @click="select(2)">Scissors</button>
     </div>
     <scoreBoard></scoreBoard>
-    <userSelection></userSelection>
-    <computerSelection></computerSelection>
+    <div id="theimgs">
+      <userSelection></userSelection>
+      <computerSelection></computerSelection>
+    </div>
   </div>
 </template>
 
@@ -76,4 +78,16 @@ export default {
 </script>
 
 <style scoped>
+#thebtns {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  column-gap: 10vh;
+  margin: 5vh 10vh;
+}
+#theimgs {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  column-gap: 10vh;
+  margin: 5vh 10vh;
+}
 </style>

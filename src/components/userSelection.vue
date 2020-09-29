@@ -1,6 +1,6 @@
 <template>
   <div class="main" v-if="selection.name != undefined">
-    <h1>User's Choice</h1>
+    <h3>User's Choice</h3>
     <img :src="selection.image" alt="User's Choice" />
   </div>
 </template>
@@ -17,4 +17,7 @@ export default {
 </script>
 
 <style scoped>
+img {
+  height: 10vh;
+}
 </style>

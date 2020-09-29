@@ -1,5 +1,5 @@
 <template>
-  <div class="main">
+  <div id="mainboard">
     <h3>{{ "WINS: " + wins }}</h3>
     <h3>{{ "TIES: " + ties }}</h3>
     <h3>{{ "LOSES: " + loses }}</h3>
@@ -24,4 +24,9 @@ export default {
 </script>
 
 <style scoped>
+#mainboard {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  text-align: center;
+}
 </style>
