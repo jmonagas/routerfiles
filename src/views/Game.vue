@@ -67,7 +67,7 @@ export default {
   methods: {
     select: function(index) {
       let userSelection = this.game_elements[index];
-      let computerSelection = this.game_elements[Math.floor(Math.random() * 2)];
+      let computerSelection = this.game_elements[Math.floor(Math.random() * 3)];
       let result = this.rules[userSelection.name][computerSelection.name];
       this.$store.commit("updateUser", userSelection);
       this.$store.commit("updatecomputer", computerSelection);
