@@ -12,6 +12,7 @@
       <br />
       <button @click="login">Login</button>
     </form>
+    <h5 v-if="error">Please enter a valid Username and Password</h5>
   </div>
 </template>
 

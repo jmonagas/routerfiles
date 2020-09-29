@@ -1,5 +1,5 @@
 <template>
-  <div v-if="selection.name != undefined">
+  <div class="main" v-if="selection.name != undefined">
     <h3>Computer's Choice</h3>
     <img :src="selection.image" alt="Computer's Choice" />
   </div>

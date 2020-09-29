@@ -1,8 +1,8 @@
 <template>
-  <div>
-    <h2>{{ "Score Wins: " + wins }}</h2>
-    <h2>{{ "Score Ties: " + ties }}</h2>
-    <h2>{{ "Score Loses: " + loses }}</h2>
+  <div class="main">
+    <h3>{{ "WINS: " + wins }}</h3>
+    <h3>{{ "TIES: " + ties }}</h3>
+    <h3>{{ "LOSES: " + loses }}</h3>
   </div>
 </template>
 
@@ -17,7 +17,7 @@ export default {
       return this.$store.state.loses;
     },
     ties() {
-      return this.$store.state.ties;
+      return this.$store.state.draws;
     }
   }
 };

@@ -14,13 +14,13 @@
   font-family: Arial, sans-serif;
   text-align: center;
   margin: 5vh;
-  background-color: beige;
+  background-color: rgb(245, 245, 239);
 }
 #nav {
   padding: 2vh;
 }
 #nav a {
-  font-weight: bolder;
+  font-weight: bold;
 }
 #nav a.router-link-exact-active {
   color: green;
